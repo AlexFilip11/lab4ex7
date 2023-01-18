@@ -17,6 +17,7 @@ namespace lab4ex7
             {
                 return;
             }
+            Pyramid(n - 1);
             int i= n;
             while(i!=0)
             {
@@ -24,7 +25,7 @@ namespace lab4ex7
                 i--;
             }
             Console.WriteLine();
-            Pyramid(n - 1);
+            
         }
     }
 }
